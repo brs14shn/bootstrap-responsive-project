@@ -1,0 +1,111 @@
+:root {
+  --red: #dc3545;
+}
+
+/*! ---------------------- 1- NAVBAR ----------------------------- */
+.navbar-light {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(59, 59, 59);
+  transition: color 1s;
+}
+
+.navbar-light .nav-link:hover {
+  color: var(--red);
+}
+/*! ---------------------- 2- CAROUSEL ----------------------------- */
+.carousel-item {
+  max-height: calc(100vh - 88px);
+}
+
+.carousel-item h1 {
+  color: var(--red);
+  text-shadow: 2px 2px 2px black;
+}
+.carousel-item p {
+  color: white;
+  font-weight: 500;
+}
+
+.carousel-item .buttons .btn {
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-indicators button {
+  background-color: var(--red) !important ;
+  height: 0.4rem !important;
+  width: 3rem !important ;
+  margin-right: 0.7rem !important;
+}
+.carousel-caption {
+  bottom: 5rem; /*20vh */
+}
+
+/*! ------------------- 3- ABOUT SECTION ------------------------ */
+
+/*! ------------------- 4- INSTRUCTORS ------------------------ */
+section#instructors .socials i {
+  transition: opacity 1s;
+}
+
+section#instructors .socials i:hover {
+  opacity: 0.5;
+}
+section#instructors .card {
+  transition: transform 1s;
+}
+
+section#instructors .card:hover {
+  transform: scale(1.05);
+}
+
+/*! ------------------- 4- STUDENTS SECTION ------------------------ */
+
+/*! ------------------- 5- COURSES SECTION ------------------------ */
+section#courses .nav-link {
+  color: white;
+}
+
+section#courses .nav-item .nav-link.active {
+  background-color: var(--red);
+}
+
+/*! ------------------- 6- CONTACT SECTION ------------------------ */
+section#contact i {
+  color: var(--red);
+  font-size: 2rem;
+}
+
+/** ------------------- UP-BUTTON --------------------- */
+.up-btn {
+  color: white;
+  position: fixed;
+  background-color: var(--red);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 1rem;
+  right: 1rem;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+}
+.up-btn:hover {
+  color: black;
+}
+
+/*! -------------------- 7- FOOTER ------------------------ */
+
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin-right: 1rem;
+  transition: color 1s;
+}
+
+footer i:hover {
+  color: var(--red);
+}
+
